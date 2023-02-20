@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="/css/all.min.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/framework.css">
+    <link rel="stylesheet" href="/css/normailize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="page d-flex">
+        <div class="sidebar bg-white p-20 ">
+            <h3 class="txt-c fs-22 black-c p-10">elzero</h3>
+            <ul class="mt-20 m-auto ">
+                <li class="wdt-25 mt-10 ht-6 d-block p-2 c-black rad-6 active"><i class="fa-solid c-black fa-chart-bar fafw pr-10 fs-16"></i><a class="c-black fs-16"  target="_blank" href="/index.html"class="fs-16 " >Dashboard</a></li>
+                <li class="wdt-25 mt-10 ht-6 d-block p-2 c-black rad-6"><i class="fa-solid c-black fa-gear fafw pr-10 fs-16"></i><a class="c-black fs-16"  target="top" href="/setting.html"class="fs-16 " >setting</a></li>
+                <li class="wdt-25 mt-10 ht-6 d-block p-2 c-black rad-6"><i class="fa-solid c-black fa-user fafw pr-10 fs-16"></i><a class="c-black fs-16" target="self"href="/profile.html"class="fs-16 " >profil</a></li>
+                <li class="wdt-25 mt-10 ht-6 d-block p-2 c-black rad-6"><i class="fa-solid c-black fa-diagram-project fafw pr-10 fs-16"></i><a class="c-black fs-16" target="blank" href="/projects.html"class="fs-16 " >projects</a></li>
+                <li class="wdt-25 mt-10 ht-6 d-block p-2 c-black rad-6"><i class="fa-solid c-black fa-graduation-cap fafw pr-10 fs-16"></i><a class="c-black fs-16" href="/courses.html"class="fs-16 " >courses</a></li>
+                <li class="wdt-25 mt-10 ht-6 d-block p-2 c-black rad-6"><i class="fa-solid c-black fa-user-group fafw pr-10 fs-16"></i><a class="c-black fs-16" href="/friends.html"class="fs-16 " >friends</a></li>
+                <li class="wdt-25 mt-10 ht-6 d-block p-2 c-black rad-6"><i class="fa-solid c-black fa-file fafw pr-10 fs-16"></i><a class="c-black fs-16" href="/files.html"class="fs-16 " >file</a></li>
+                <li class="wdt-25 mt-10 ht-6 d-block p-2 c-black rad-6"><i class="fa-solid c-black fa-credit-card fafw pr-10 fs-16"></i><a class="c-black fs-16" href="/plans.html"class="fs-16 " >plans</a></li>
+            </ul>
+        </div>
+        <div class="container flex-1">
+            <div class="content flex-1">
+                <header class=" d-flex bg-white wdt-100 p-20 ">
+                    <form action="">
+                        <input type="text" placeholder="type a keyword">
+                    </form>
+                    <div class="img p-relative mr-30">
+                        <div class="i">
+                            <i class="fa-solid fa-bell fafw pr-10 fs-22"></i>
+                        </div>
+                        <img class="rad-50"src="/images/user.jpg" alt="">
+                    </div>
+                </header>
+                <!-- header end -->
+                <div class="main-heading p-relative">
+                    <h1 class="p-20 fs-32 c-black ">Dashboard</h1>
+                </div>
+                <!-- main-heading end -->
+                <div class="first-row d-flex">
+                    <div class=" info-box rad-6 m-20 bg-eee flex-1 welcome">
+                        <div class="wrapper">
+                            <div class="top p-20 bg-eee wdt-100 rad-6">
+                                <div class="img"><img src="/images/office.png" alt=""></div>
+                                <div class="txt-content">
+                                    <h1 class="h1-info-box">Welcome</h1>
+                                    <span class="txt-info-box">Elzero</span>
+                                </div>
+                            </div>
+                            <div class="middle-1 p-20 p-relative ht-6 bg-white">
+                                <div class="img"><img src="images/user.jpg" alt=""></div>
+                            </div>
+                            <div class="middle-2 p-20 d-flex bg-white">
+                                <div class="col ">
+                                    <h4 class="txt-black-info-box txt-c">Osama Elzero</h4>
+                                    <p class="txt-info-box pt-20 txt-c">Developer</p>
+                                </div>
+                                <div class="col ">
+                                    <h4 class="txt-black-info-box txt-c">80</h4>
+                                    <p class="txt-info-box pt-20 txt-c">Projects</p>
+                                </div>
+                                <div class="col ">
+                                    <h4 class="txt-black-info-box txt-c">$8500</h4>
+                                    <p class="txt-info-box pt-20 txt-c">Earned</p>
+                                </div>
+                            </div>
+                            <div class="bottom bg-white p-20 d-flex">
+                                <button class="d-block">profil</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- box -->
+                    <div class=" info-box p-20 rad-6 m-20 bg-white flex-1 quick-draft ">
+                        <div class="top">
+                            <div class="txt-content">
+                                <h1 class="h1-info-box">quick draft</h1>
+                                <span class="txt-info-box">write a draft for your ideas</span>
+                            </div>
+                        </div>
+                        <form action="">
+                            <input type="text" placeholder="title">
+                            <textarea name="" id="" cols="30" rows="10" placeholder="your Thought"></textarea>
+                        </form>
+                        <div class="bottom d-flex">
+                            <button class="d-block mt-20">save</button>
+                        </div>
+                    </div>
+                    <!-- yearly targe -->
+                    <div class=" info-box p-20 rad-6 m-20 bg-white flex-1 ">
+                        <div class="top">
+                            <div class="txt-content ">
+                                <h1 class="h1-info-box">Yearly Target </h1>
+                                <span class="txt-info-box">Target of the year</span>
+                            </div>
+                        </div>
+                        <div class="row d-flex mt-20">
+                            <div class="icon d-flex"><i class="fa-solid fa-dollar fafw"></i></div>
+                            <div class="content p-10">
+                                <h4 class="txt-info-box">Money</h4>
+                                <h3 class="txt-black-info-box mt-20">$20.000<span >80%</span></h3>
+                                <div class="progress wdt-100 mt-20 p-relative">
+                                    <span style="width: 80%" ></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-flex mt-20 rot">
+                            <div class="icon d-flex"><i class="fa-solid fa-dollar fafw"></i></div>
+                            <div class="content p-10">
+                                <h4 class="txt-info-box">Money</h4>
+                                <h3 class="txt-black-info-box mt-20">$20.000<span >80%</span></h3>
+                                <div class="progress wdt-100 mt-20 p-relative">
+                                    <span style="width: 80%" ></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-flex mt-20 gruen">
+                            <div class="icon d-flex"><i class="fa-solid fa-dollar fafw"></i></div>
+                            <div class="content p-10">
+                                <h4 class="txt-info-box">Money</h4>
+                                <h3 class="txt-black-info-box mt-20">$20.000<span >80%</span></h3>
+                                <div class="progress wdt-100 mt-20 p-relative">
+                                    <span style="width: 80%" ></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- box -->
+                    <!-- box -->
+                    <div class=" info-box p-20 rad-6 m-20 bg-white flex-1 ">
+                        <div class="top">
+                            <div class="txt-content ">
+                                <h1 class="h1-info-box">Tickets Statistics </h1>
+                                <span class="txt-info-box">Everything about support tickets</span>
+                            </div>
+                        </div>
+                        <div class="stats d-flex mt-20">
+                            <div class="stat rad-6 p-20 txt-c">
+                                <i class="fa-solid fa-list fs-22 "></i>
+                                <h1 class="h1-info-box mt-10">300</h1>
+                                <h4 class="txt-info-box mt-10">total</h4>
+                            </div>
+                            <div class="stat rad-6 p-20 txt-c">
+                                <i class="fa-solid fa-circle-up fs-22"></i>
+                                <h1 class="h1-info-box mt-10">1200</h1>
+                                <h4 class="txt-info-box mt-10">pending</h4>
+                            </div>
+                            <div class="stat rad-6 p-20 txt-c mt-20">
+                                <i class="fa-solid fa-circle-check fs-22"></i>
+                                <h1 class="h1-info-box mt-10">800</h1>
+                                <h4 class="txt-info-box mt-10">closed</h4>
+                            </div>
+                            <div class="stat rad-6 p-20 txt-c mt-20">
+                                <i class="fa-solid fa-circle-xmark fs-22"></i>
+                                <h1 class="h1-info-box mt-10">100</h1>
+                                <h4 class="txt-info-box mt-10">deleted</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- box -->
+                    <!-- box -->
+                    <div class=" info-box p-20 rad-6 m-20 bg-white flex-1 ">
+                        <div class="top">
+                            <div class="txt-content ">
+                                <h1 class="h1-info-box">latest news </h1>
+                            </div>
+                        </div>
+                        <div class="article">
+                            <div class="artc d-flex mt-20">
+                                <div class="img">
+                                    <img src="/images/huge-set-colorful-pencils-white-table-background-top-view.jpg" alt="">
+                                </div>
+                                <div class="title">
+                                    <h3 class="txt-black-info-box mt-20">$20.000</h3>
+                                    <h4 class="txt-info-box mt-10">New SASS Examples & Tutorials</h4>
+                                </div>
+                                <div class="kasten bg-eee rad-6">
+                                    3 Days Ago
+                                </div>
+                            </div>
+                            <div class="artc d-flex mt-20">
+                                <div class="img ">
+                                    <img src="/images/huge-set-colorful-pencils-white-table-background-top-view.jpg" alt="">
+                                </div>
+                                <div class="title">
+                                    <h3 class="txt-black-info-box mt-20">creqated Sass Secion</h3>
+                                    <h4 class="txt-info-box mt-10">A Brand New Website Design</h4>
+                                </div>
+                                <div class="kasten bg-eee rad-6">
+                                    3 Days Ago
+                                </div>
+                            </div>
+                            <div class="artc d-flex mt-20">
+                                <div class="img">
+                                    <img src="/images/huge-set-colorful-pencils-white-table-background-top-view.jpg" alt="">
+                                </div>
+                                <div class="title">
+                                    <h3 class="txt-black-info-box mt-20">creqated Sass Secion</h3>
+                                    <h4 class="txt-info-box mt-10">A Brand New Website Design</h4>
+                                </div>
+                                <div class="kasten bg-eee rad-6">
+                                    3 Days Ago
+                                </div>
+                            </div>
+                            <div class="artc d-flex mt-20">
+                                <div class="img">
+                                    <img src="/images/huge-set-colorful-pencils-white-table-background-top-view.jpg" alt="">
+                                </div>
+                                <div class="title">
+                                    <h3 class="txt-black-info-box mt-20">creqated Sass Secion</h3>
+                                    <h4 class="txt-info-box mt-10">A Brand New Website Design</h4>
+                                </div>
+                                <div class="kasten bg-eee rad-6">
+                                    3 Days Ago
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- box -->
+    
+                    <!-- box -->
+                    <div class=" info-box p-20 rad-6 m-20 bg-white flex-1 ">
+                        <div class="top">
+                            <div class="txt-content ">
+                                <h1 class="h1-info-box">latest news </h1>
+                            </div>
+                        </div>
+                        <div class="tasks">
+                            <div class="artc d-flex mt-20">
+                                <div class="title">
+                                    <h3 class="txt-black-info-box mt-20">$20.000</h3>
+                                    <h4 class="txt-info-box mt-10">New SASS Examples & Tutorials</h4>
+                                </div>
+                                <div class="icon">
+                                    <i class="fa-solid fa-trash-can fs-22"></i>
+                                </div>
+                            </div>
+                            <div class="artc d-flex mt-20">
+                                <div class="title">
+                                    <h3 class="txt-black-info-box mt-20">creqated Sass Secion</h3>
+                                    <h4 class="txt-info-box mt-10">A Brand New Website Design</h4>
+                                </div>
+                                <div class="icon">
+                                    <i class="fa-solid fa-trash-can fs-22"></i>
+                                </div>
+                            </div>
+                            <div class="artc d-flex mt-20 artc-special">
+                                <div class="title">
+                                    <h3 class="txt-black-info-box mt-20">creqated Sass Secion</h3>
+                                    <h4 class="txt-info-box mt-10">A Brand New Website Design</h4>
+                                </div>
+                                <div class="icon">
+                                    <i class="fa-solid fa-trash-can fs-22"></i>
+                                </div>
+                            </div>
+                            <div class="artc d-flex mt-20">
+                                <div class="title">
+                                    <h3 class="txt-black-info-box mt-20">creqated Sass Secion</h3>
+                                    <h4 class="txt-info-box mt-10">A Brand New Website Design</h4>
+                                </div>
+                                <div class="icon">
+                                    <i class="fa-solid fa-trash-can fs-22"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- box -->
+                    <!-- top Search start -->
+                    <div class=" info-box p-20 rad-6 m-20 bg-white flex-1 ">
+                        <div class="top">
+                            <div class="txt-content ">
+                                <h1 class="h1-info-box">top Search items </h1>
+                            </div>
+                            <div class="obere-title d-flex">
+                                <h4 class="txt-info-box mt-10">Keywords</h4>
+                                <h4 class="txt-info-box mt-10">Search Count</h4>
+                            </div>
+                        </div>
+                        <div class="untere-liste ">
+                            <div class="cont mt-10 d-flex">
+                                <h3 class="txt-black-info-box mt-20">programmieren</h3>
+                                <h3 class="txt-black-info-box mt-20 klein-kasten bg-eee rad-6 txt-c">220</h3>
+                            </div>
+                            <div class="cont mt-10 d-flex">
+                                <h3 class="txt-black-info-box mt-20">java script</h3>
+                                <h3 class="txt-black-info-box mt-20 klein-kasten bg-eee rad-6 txt-c">180</h3>
+                            </div>
+                            <div class="cont mt-10 d-flex">
+                                <h3 class="txt-black-info-box mt-20">c++</h3>
+                                <h3 class="txt-black-info-box mt-20 klein-kasten bg-eee rad-6 txt-c">160</h3>
+                            </div>
+                            <div class="cont mt-10 d-flex">
+                                <h3 class="txt-black-info-box mt-20">HTML</h3>
+                                <h3 class="txt-black-info-box mt-20 klein-kasten bg-eee rad-6 txt-c">145</h3>
+                            </div>
+                            <div class="cont mt-10 d-flex">
+                                <h3 class="txt-black-info-box mt-20">CSS</h3>
+                                <h3 class="txt-black-info-box mt-20 klein-kasten bg-eee rad-6 txt-c">110</h3>
+                            </div>
+                            <div class="cont mt-10 d-flex">
+                                <h3 class="txt-black-info-box mt-20">Logic</h3>
+                                <h3 class="txt-black-info-box mt-20 klein-kasten bg-eee rad-6 txt-c">95</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- top Search end -->
+                    <!-- last project progress start -->
+                    <div class=" info-box p-20 rad-6 m-20 bg-white flex-1 ">
+                        <div class="top">
+                            <div class="txt-content ">
+                                <h1 class="h1-info-box">last project progress </h1>
+                            </div>
+                        </div>
+                       <div class="str-box d-flex">
+                            <div class="structur ">
+                                <div class="struc d-flex">
+                                    <div class="h3 mt-40 mr-30"></div>
+                                    <h3 class="txt-black-info-box mt-40">go to the project</h3>
+                                </div>
+                                <div class="struc d-flex">
+                                    <div class="h3 mt-40 mr-30"></div>
+                                        <h3 class="txt-black-info-box mt-40">Started The Project</h3>
+                                </div>
+                                <div class="struc d-flex">
+                                    <div class="h3 mt-40 mr-30"></div>
+                                        <h3 class="txt-black-info-box mt-40">The Project About To Finish</h3>
+                                </div>
+                                <div class="struc d-flex">
+                                    <div class="h3 mt-40 mr-30"></div>
+                                        <h3 class="txt-black-info-box mt-40">test The Project</h3>
+                                </div>
+                                <div class="struc d-flex">
+                                    <div class="h3 mt-40 mr-30 bg-white"></div>
+                                        <h3 class="txt-black-info-box mt-40">Finish The Project & Get Money</h3>
+                                </div>
+                            </div>
+                            <div class="img">
+                                <img src="/images/rocket.jpg" alt="">
+                            </div>
+                       </div>
+                    </div>
+                    <!-- last project progress end -->
+                    <!-- latest upload start -->
+                    
+                    <!-- latest upload end -->
+                    <div class=" info-box p-20 rad-6 m-20 bg-white flex-1 ">
+                        <div class="top">
+                            <div class="txt-content ">
+                                <h1 class="h1-info-box">latest news </h1>
+                            </div>
+                        </div>
+                        <div class="article">
+                            <div class="artc d-flex mt-10">
+                                <div class="img">
+                                    <img class="extension" src="/images/avi.png" alt="">
+                                </div>
+                                <div class="title">
+                                    <h3 class="txt-black-info-box mt-20">my-file.pdf</h3>
+                                    <h4 class="txt-info-box mt-10">Elzero</h4>
+                                </div>
+                                <div class="kasten bg-eee rad-6">
+                                    2.9mb
+                                </div>
+                            </div>
+                            <div class="artc d-flex mt-10">
+                                <div class="img ">
+                                    <img class="extension" src="/images/pdf.png" alt="">
+                                </div>
+                                <div class="title">
+                                    <h3 class="txt-black-info-box mt-20">My-Video-File.avi</h3>
+                                    <h4 class="txt-info-box mt-10">admin</h4>
+                                </div>
+                                <div class="kasten bg-eee rad-6">
+                                    3.9mb
+                                </div>
+                            </div>
+                            <div class="artc d-flex mt-10">
+                                <div class="img">
+                                    <img class="extension" src="/images/avi.png" alt="">
+                                </div>
+                                <div class="title">
+                                    <h3 class="txt-black-info-box mt-20">My-Psd-File.pdf</h3>
+                                    <h4 class="txt-info-box mt-10">osama</h4>
+                                </div>
+                                <div class="kasten bg-eee rad-6">
+                                    6.9mb
+                                </div>
+                            </div>
+                            <div class="artc d-flex mt-10">
+                                <div class="img">
+                                    <img class="extension" src="/images/pdf.png" alt="">
+                                </div>
+                                <div class="title">
+                                    <h3 class="txt-black-info-box mt-20">My-Zip-File.pdf</h3>
+                                    <h4 class="txt-info-box mt-10">user</h4>
+                                </div>
+                                <div class="kasten bg-eee rad-6">
+                                    5.9mb
+                                </div>
+                            </div>
+                            <div class="artc d-flex mt-10">
+                                <div class="img">
+                                    <img class="extension" src="/images/avi.png" alt="">
+                                </div>
+                                <div class="title">
+                                    <h3 class="txt-black-info-box mt-20">My-DLL-File.pdf</h3>
+                                    <h4 class="txt-info-box mt-10">admin</h4>
+                                </div>
+                                <div class="kasten bg-eee rad-6">
+                                    4.9mb
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- first row end -->
+                    <div class=" info-box p-20 rad-6 m-20 bg-white flex-1 ">
+                        <div class="top">
+                            <div class="txt-content ">
+                                <h1 class="h1-info-box">last post </h1>
+                            </div>
+                            <div class="collec d-flex mt-20">
+                                <div class="img rad-50 mr-30">
+                                    <img src="images/user.jpg" alt="">
+                                </div>
+                                <div class="user-über">
+                                    <h3 class="txt-black-info-box mt-10">osama Elzero</h3>
+                                    <h4 class="txt-info-box mt-10">about 3 Hour age</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <p>You Can Fool All Of The People Some Of The Time, And Some Of The People All Of The Time, But You Can't Fool All Of The People All Of The Time.</p>
+                        <div class="comment mt-10 d-flex">
+                            <h4 class="txt-black-info-box mt-20"><i class="fa-solid fa-heart"></i>1.8k</h4>
+                            <h4 class="txt-black-info-box mt-20"><i class="fa-solid fa-comments"></i>500</h4>
+                        </div>
+                    </div>
+                    <!-- social media stats start -->
+                    
+                    <div class=" info-box p-20 rad-6 m-20 bg-white flex-1 ">
+                        <div class="top">
+                            <div class="txt-content ">
+                                <h1 class="h1-info-box">Social Media stats </h1>
+                            </div>
+                        </div>
+                        <div class="soci twitt d-flex mt-20">
+                            <div class="icon ">
+                                <i class="fa-brands fa-twitter"></i>
+                            </div>
+                            <div class=" txt-black-info-box mittel d-flex p-20">
+                                90k followers 
+                                <span class="rad-6 txt-c ">follow</span>
+                            </div>
+                        </div>
+                        <div class="soci face d-flex mt-20">
+                            <div class="icon ">
+                                <i class="fa-brands fa-facebook"></i>
+                            </div>
+                            <div class=" txt-black-info-box mittel d-flex p-20">
+                                90k followers 
+                                <span class="rad-6 txt-c ">follow</span>
+                            </div>
+                        </div>
+                        <div class="soci insta d-flex mt-20">
+                            <div class="icon ">
+                                <i class="fa-brands fa-instagram"></i>
+                            </div>
+                            <div class=" txt-black-info-box mittel d-flex p-20">
+                                90k followers 
+                                <span class="rad-6 txt-c ">follow</span>
+                            </div>
+                        </div>
+                        <div class="soci yout d-flex mt-20">
+                            <div class="icon ">
+                                <i class="fa-brands fa-youtube"></i>
+                            </div>
+                            <div class=" txt-black-info-box mittel d-flex p-20">
+                                90k followers 
+                                <span class="rad-6 txt-c ">follow</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- social media stats end -->
+                    <!-- Remeinders start -->
+                    <div class=" info-box p-20 rad-6 m-20 bg-white flex-1 ">
+                        <div class="top">
+                            <div class="txt-content ">
+                                <h1 class="h1-info-box">Reminders </h1>
+                            </div>
+                        </div>
+                        <div class="reminders p-relative">
+                            <div class="artc d-flex mt-20">
+                                <div class="kreis1"></div>
+                                <div class="title ">
+                                    <h3 class="txt-black-info-box mt-20">Check my tasks list</h3>
+                                    <h4 class="txt-info-box mt-10">28/09/2022 - 12:00am </h4>
+                                </div>
+                            </div>
+                            <div class="artc d-flex mt-20">
+                                <div class="kreis2"></div>
+                                <div class="title ">
+                                    <h3 class="txt-black-info-box mt-20">Check my Projects</h3>
+                                    <h4 class="txt-info-box mt-10">28/09/2022 - 12:00am </h4>
+                                </div>
+                            </div>
+                            <div class="artc d-flex mt-20 ">
+                                <div class="kreis3"></div>
+                                <div class="title ">
+                                    <h3 class="txt-black-info-box mt-20">Call my client</h3>
+                                    <h4 class="txt-info-box mt-10">28/09/2022 - 12:00am </h4>
+                                </div>
+                            </div>
+                            <div class="artc d-flex mt-20">
+                                <div class="kreis4"></div>
+                                <div class="title ">
+                                    <h3 class="txt-black-info-box mt-20">Finish the Development workshop</h3>
+                                    <h4 class="txt-info-box mt-10">28/09/2022 - 12:00am </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Remeinders end -->
+                </div>
+            </div>
+            <!-- projects start -->
+            <div class="products bg-white flex-1 p-20 m-20">
+                <div class="top">
+                    <div class="txt-content ">
+                        <h1 class="h1-info-box">Reminders </h1>
+                    </div>
+                </div>
+                <div class="tab-head f-complete">
+                    <div>
+                        <h3 >name</h3>
+                    </div>
+                    <div>
+                        <h3>Finish Date</h3>
+                    </div>
+                    <div>
+                        <h3>client</h3>
+                    </div>
+                    <div>
+                        <h3>price</h3>
+                    </div>
+                    <div>
+                        <h3>Team</h3>
+                    </div>
+                    <div>
+                        <h3>status</h3>
+                    </div>
+                </div>
+                <div class="cols d-flex">
+                    <div class="col">
+                        <ul>
+                            <li>Ministry Wikipedia</li>
+                            <li>Elzreo shop</li>
+                            <li>Bouba app</li>
+                            <li>Mohammad Alnady</li>
+                            <li>Sayed Webside</li>
+                            <li>Arena Application</li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <ul>
+                            <li>10 May 2022</li>
+                            <li>19 Feb 2012</li>
+                            <li>08 Nov 2044</li>
+                            <li>15 Mars 2001</li>
+                            <li>01 May 2022</li>
+                            <li>10 Oct 2021</li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <ul>
+                            <li>Ministry</li>
+                            <li>Elzreo Company</li>
+                            <li>Bouba </li>
+                            <li>Alnady</li>
+                            <li>Webside</li>
+                            <li>Arena</li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <ul>
+                            <li>$2354</li>
+                            <li>$93623</li>
+                            <li>$8236</li>
+                            <li>$2080</li>
+                            <li>$1030</li>
+                            <li>$100</li>
+                        </ul>
+                    </div>
+                    <div class="imgs">
+                        <ul>
+                            <li><img src="/images/user.jpg" alt=""><img src="/images/user.jpg" alt=""><img src="/images/user.jpg" alt=""><img src="/images/user.jpg" alt=""></li>
+                            <li><img src="/images/user.jpg" alt=""><img src="/images/user.jpg" alt=""><img src="/images/user.jpg" alt=""></li>
+                            <li><img src="/images/user.jpg" alt=""><img src="/images/user.jpg" alt=""></li>
+                            <li><img src="/images/user.jpg" alt=""><img src="/images/user.jpg" alt=""></li>
+                            <li><img src="/images/user.jpg" alt=""><img src="/images/user.jpg" alt=""></li>
+                            <li><img src="/images/user.jpg" alt=""><img src="/images/user.jpg" alt=""><img src="/images/user.jpg" alt=""></li>
+                        </ul>
+                    </div>
+                   <div class="label">
+                        <ul>
+                            <li><div class="pending">Pending</div></li>
+                            <li><div class="progress">In Progress</div></li>
+                            <li><div class="completed">Completed</div></li>
+                            <li><div class="completed">completed</div></li>
+                            <li><div class="rejected">Rejected</div></li>
+                            <li><div class="completed">completed</div></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- projects end -->
+        </div>
+
+    </body>
+    </html>

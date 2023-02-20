@@ -1,0 +1,179 @@
+.d-flex {
+    display: flex;
+
+}
+.flex-1 {
+    flex: 1;
+}
+.d-block {
+    display: block;
+}
+.d-inline-block {
+    display: inline-block;
+}
+.wdt-100 {
+    width: 100%;
+}
+.wdt-25 {
+    width: 25rem;
+}
+.ht-6 {
+    height: 6rem;
+}
+.txt-c {
+    text-align: center;
+}
+.p-relative {
+    position: relative;
+}
+.p-absolute {
+    position: absolute;
+}
+.rad-6 {
+    border-radius: 6px;
+}
+.bx-sh-in {
+    box-shadow: var(--box-shadow-inset)
+}
+.bx-sh-out {
+    box-shadow: var(--box-shadow-outset)
+}
+.bg-white {
+    background-color: var(--light);
+}
+.bg-eee {
+    background-color: var(--bg-color);
+}
+.p-0 {
+    padding: 0;
+}
+.p-2 {
+    padding: 2rem;
+}
+
+.p-10 {
+    padding: 1rem;
+}
+.p-20 {
+    padding: 2rem;
+}
+.pl-10 {
+    padding-left: 1rem;
+}
+.pr-10 {
+    padding-right: 1rem;
+}
+.pr-30 {
+    padding-right: 3rem;
+}
+.m-0 {
+    margin: 0;
+}
+.m-0 {
+    margin: 1rem;
+}
+.m-20 {
+    margin: 2rem;
+}
+.mt-10 {
+    margin-top: 1rem;
+
+}
+.mb-10 {
+    margin-bottom: 1rem;
+
+}
+.mt-20 {
+    margin-top: 2rem;
+
+}
+.mt-40 {
+    margin-top: 5rem;
+
+}
+.mr-30 {
+    margin-right: 3rem;
+}
+.m-auto {
+    margin: 0 auto;
+
+}
+.pt-20 {
+    padding-top: 2rem;
+
+}
+.fs-12 {
+    font-size: 1.2rem;
+}
+.fs-16 {
+    font-size: 1.6rem;
+}
+.fs-22 {
+    font-size: 2.2rem;
+}
+.fs-32 {
+    font-size: 3.2rem;
+}
+.c-black {
+    color: var(--dark)
+}
+.c-white {
+    color: var(--light)
+}
+.c-txt {
+    color: var(--txt)
+}
+.rad-50 {
+    border-radius: 50%;
+
+}
+.h1-info-box {
+    font-size: 2.2rem;
+    color: var(--dark);
+    text-transform: capitalize;
+    letter-spacing: .1rem;
+}
+.txt-info-box {
+    font-size: 1.6rem;
+    color: var(--txt);
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.txt2-info-box {
+    font-size: 1.4rem;
+    color: var(--txt);
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.txt-black-info-box {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--dark);
+    text-transform: capitalize;
+}
+.f-complete {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ueber {
+    color: black;
+    font-size: 1.6rem;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+.txt {
+    color: #777;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    line-height: 1.5;
+
+    text-align: left;
+    width: 100%;
+}
+.txt-r {
+    text-align: right;
+}
+.txt-l {
+    text-align: left;
+}
